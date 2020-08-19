@@ -1,0 +1,60 @@
+{
+      "address": "0xC8c9eEb5010632546aa6a27368Ff1a84f8317C3f",
+      "token": {
+        "address": "0x9f524c264Cc9eE3f790a8e31e23959ecDfC2FB34",
+        "name": "Scenario Test Token b047441a-85e9-4237-9d7c-f9089b8b7c49 2020-06-15T18:48",
+        "symbol": "Tb04",
+        "decimals": 18
+      },
+      "num_channels_total": 3,
+      "num_channels_opened": 3,
+      "num_channels_closed": 0,
+      "num_channels_settled": 0,
+      "total_deposits": 2000000000000000000,
+      "avg_deposit_per_channel": 666666666666666600,
+      "avg_deposit_per_node": 666666666666666600,
+      "avg_channels_per_node": 2,
+      "channels": [
+        {
+          "channel_identifier": 1,
+          "status": "opened",
+          "participant1": "0xA7d71Ab13C3BD6BF7328F9717Eb62Ac41F8667D1",
+          "participant2": "0x56a7f4c0afAb586e73f4e687A5961D08DD9b61d7",
+          "deposit1": 1000000000000000000,
+          "deposit2": 1000000000000000000
+        },
+        {
+          "channel_identifier": 2,
+          "status": "opened",
+          "participant1": "0x675aa1900CEE60D89507112B4f140af71be32a53",
+          "participant2": "0x56a7f4c0afAb586e73f4e687A5961D08DD9b61d7",
+          "deposit1": 0,
+          "deposit2": 0
+        },
+        {
+          "channel_identifier": 3,
+          "status": "opened",
+          "participant1": "0x675aa1900CEE60D89507112B4f140af71be32a53",
+          "participant2": "0xA7d71Ab13C3BD6BF7328F9717Eb62Ac41F8667D1",
+          "deposit1": 0,
+          "deposit2": 0
+        }
+      ],
+      "nodes": {
+        "0xA7d71Ab13C3BD6BF7328F9717Eb62Ac41F8667D1": {
+          "opened": 2,
+          "closed": 0,
+          "settled": 0
+        },
+        "0x56a7f4c0afAb586e73f4e687A5961D08DD9b61d7": {
+          "opened": 2,
+          "closed": 0,
+          "settled": 0
+        },
+        "0x675aa1900CEE60D89507112B4f140af71be32a53": {
+          "opened": 2,
+          "closed": 0,
+          "settled": 0
+        }
+      }
+}

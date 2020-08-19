@@ -1,0 +1,39 @@
+{
+      "address": "0x8447a0C185e9Ca4e8e54D2A1fC2462Fc75Cea524",
+      "token": {
+        "address": "0xEf75150aa98bFb95ee2879f8e45d4A39ab35990f",
+        "name": "Scenario Test Token d3dcd4fd-8ed9-4662-a5bf-f924dba7c1f0 2020-06-18T19:14",
+        "symbol": "Td3d",
+        "decimals": 0
+      },
+      "num_channels_total": 1,
+      "num_channels_opened": 1,
+      "num_channels_closed": 0,
+      "num_channels_settled": 0,
+      "total_deposits": 1000000000000000000,
+      "avg_deposit_per_channel": 1000000000000000000,
+      "avg_deposit_per_node": 500000000000000000,
+      "avg_channels_per_node": 1,
+      "channels": [
+        {
+          "channel_identifier": 1,
+          "status": "opened",
+          "participant1": "0xEFbF3B36Ea2BCbb2bEF5ceFA1c8c8B1073a888Cd",
+          "participant2": "0xF816724D82014126FBA82469bee6E310a238CBee",
+          "deposit1": 1000000000000000000,
+          "deposit2": 0
+        }
+      ],
+      "nodes": {
+        "0xEFbF3B36Ea2BCbb2bEF5ceFA1c8c8B1073a888Cd": {
+          "opened": 1,
+          "closed": 0,
+          "settled": 0
+        },
+        "0xF816724D82014126FBA82469bee6E310a238CBee": {
+          "opened": 1,
+          "closed": 0,
+          "settled": 0
+        }
+      }
+}

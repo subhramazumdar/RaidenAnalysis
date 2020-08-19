@@ -1,0 +1,73 @@
+{
+      "address": "0x6b146DE64B480B48e7Cd07df9639d52422CB0E61",
+      "token": {
+        "address": "0xce4b48DF1E88DFd74da1963416a53bBA9cf3B2aE",
+        "name": "Energy Blkchn",
+        "symbol": "EBC",
+        "decimals": 18
+      },
+      "num_channels_total": 4,
+      "num_channels_opened": 3,
+      "num_channels_closed": 0,
+      "num_channels_settled": 1,
+      "total_deposits": 40000000000000000000,
+      "avg_deposit_per_channel": 13333333333333334000,
+      "avg_deposit_per_node": 10000000000000000000,
+      "avg_channels_per_node": 1.5,
+      "channels": [
+        {
+          "channel_identifier": 1,
+          "status": "opened",
+          "participant1": "0x37275F6314cAA14dE6A2D5332709f97d89ef162F",
+          "participant2": "0x2222222222222222222222222222222222222222",
+          "deposit1": 0,
+          "deposit2": 0
+        },
+        {
+          "channel_identifier": 2,
+          "status": "settled",
+          "participant1": "0x1159915CFd2E19223edb08B0CD6711EAC0fA87a6",
+          "participant2": "0x37275F6314cAA14dE6A2D5332709f97d89ef162F",
+          "deposit1": 12000000000000000000,
+          "deposit2": 50000000000000000
+        },
+        {
+          "channel_identifier": 3,
+          "status": "opened",
+          "participant1": "0x961D954009Db8D9ab527632D7537411f3b3b8473",
+          "participant2": "0x1159915CFd2E19223edb08B0CD6711EAC0fA87a6",
+          "deposit1": 20000000000000000000,
+          "deposit2": 0
+        },
+        {
+          "channel_identifier": 4,
+          "status": "opened",
+          "participant1": "0x961D954009Db8D9ab527632D7537411f3b3b8473",
+          "participant2": "0x37275F6314cAA14dE6A2D5332709f97d89ef162F",
+          "deposit1": 20000000000000000000,
+          "deposit2": 0
+        }
+      ],
+      "nodes": {
+        "0x37275F6314cAA14dE6A2D5332709f97d89ef162F": {
+          "opened": 2,
+          "closed": 0,
+          "settled": 1
+        },
+        "0x2222222222222222222222222222222222222222": {
+          "opened": 1,
+          "closed": 0,
+          "settled": 0
+        },
+        "0x1159915CFd2E19223edb08B0CD6711EAC0fA87a6": {
+          "opened": 1,
+          "closed": 0,
+          "settled": 1
+        },
+        "0x961D954009Db8D9ab527632D7537411f3b3b8473": {
+          "opened": 2,
+          "closed": 0,
+          "settled": 0
+        }
+      }
+    }

@@ -1,0 +1,503 @@
+{
+    "address": "0xEA92bD481e54BBB9Bb6C927970a54E82eE26c6B4",
+    "avg_channels_per_node": 3.6666666666666665,
+    "avg_deposit_per_channel": 8.410704545454546e+18,
+    "avg_deposit_per_node": 1.5419625e+19,
+    "channels": [
+        {
+            "channel_identifier": 1,
+            "deposit1": 500000000000000000,
+            "deposit2": 500000000000000000,
+            "participant1": "0xC024b5c29Eaa118111AC3b0A79B3c860D30fbF1B",
+            "participant2": "0x6652f05286b003576d1dC3868C34F63AB65eF233",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 2,
+            "deposit1": 500000000000000000,
+            "deposit2": 500000000000000000,
+            "participant1": "0xAD5F80fAc7533904dC6dae6128d7dA003B5D6310",
+            "participant2": "0xC024b5c29Eaa118111AC3b0A79B3c860D30fbF1B",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 3,
+            "deposit1": 1000000000000000,
+            "deposit2": 0,
+            "participant1": "0xF573C35c75aB5896CE8E081d68b8626f9233bC4c",
+            "participant2": "0xEe12f8e36574C97eFfEf86723053c533649a561B",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 4,
+            "deposit1": 0,
+            "deposit2": 0,
+            "participant1": "0x50602491e5E9F3E7Fb6Dc1Ea4381B66867CAd493",
+            "participant2": "0x00A33749a231f2e9c10deFE83403a67148D38438",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 8,
+            "deposit1": 750000000000000000,
+            "deposit2": 10000000000000000,
+            "participant1": "0x865b332B0B058C472Ee3B46C5a66b8D1699740E1",
+            "participant2": "0x6652f05286b003576d1dC3868C34F63AB65eF233",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 9,
+            "deposit1": 1000000000000000000,
+            "deposit2": 0,
+            "participant1": "0x12df25eDD01f9b467F4375fDD95168482F987243",
+            "participant2": "0x172d639D7f9dFa5D97B059644Ba8F3D50df5e780",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 10,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0xf9ED3cCa3e56A7B72049e6e830C39fd842A2F8e6",
+            "participant2": "0x865b332B0B058C472Ee3B46C5a66b8D1699740E1",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 11,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0xf9ED3cCa3e56A7B72049e6e830C39fd842A2F8e6",
+            "participant2": "0x12df25eDD01f9b467F4375fDD95168482F987243",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 12,
+            "deposit1": 20000000000000000000,
+            "deposit2": 10000000000000000000,
+            "participant1": "0xf1f41e5F35E3be655779a55d3544Df1Ad137b7C6",
+            "participant2": "0xf9ED3cCa3e56A7B72049e6e830C39fd842A2F8e6",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 13,
+            "deposit1": 20000000000000000000,
+            "deposit2": 0,
+            "participant1": "0xf1f41e5F35E3be655779a55d3544Df1Ad137b7C6",
+            "participant2": "0x12df25eDD01f9b467F4375fDD95168482F987243",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 14,
+            "deposit1": 20000000000000000000,
+            "deposit2": 0,
+            "participant1": "0xf1f41e5F35E3be655779a55d3544Df1Ad137b7C6",
+            "participant2": "0x865b332B0B058C472Ee3B46C5a66b8D1699740E1",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 15,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0xE03E70e33F2AC48ceC3be5C0C7B06a0f25Ad5610",
+            "participant2": "0x865b332B0B058C472Ee3B46C5a66b8D1699740E1",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 16,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0xE03E70e33F2AC48ceC3be5C0C7B06a0f25Ad5610",
+            "participant2": "0x12df25eDD01f9b467F4375fDD95168482F987243",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 17,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0xE03E70e33F2AC48ceC3be5C0C7B06a0f25Ad5610",
+            "participant2": "0xF8F857026C39BDeA5Fcc2Eb652DD02A23a07cF13",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 19,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0xf1f41e5F35E3be655779a55d3544Df1Ad137b7C6",
+            "participant2": "0xE03E70e33F2AC48ceC3be5C0C7B06a0f25Ad5610",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 21,
+            "deposit1": 0,
+            "deposit2": 0,
+            "participant1": "0xF573C35c75aB5896CE8E081d68b8626f9233bC4c",
+            "participant2": "0xf9ED3cCa3e56A7B72049e6e830C39fd842A2F8e6",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 22,
+            "deposit1": 2000000000000000000,
+            "deposit2": 0,
+            "participant1": "0xF573C35c75aB5896CE8E081d68b8626f9233bC4c",
+            "participant2": "0x865b332B0B058C472Ee3B46C5a66b8D1699740E1",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 23,
+            "deposit1": 20000000000000000000,
+            "deposit2": 10000000000000000,
+            "participant1": "0xf1f41e5F35E3be655779a55d3544Df1Ad137b7C6",
+            "participant2": "0xAD5F80fAc7533904dC6dae6128d7dA003B5D6310",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 24,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0xe89Ce3756690Ac7937972797471d7c84F9818ac6",
+            "participant2": "0xF573C35c75aB5896CE8E081d68b8626f9233bC4c",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 25,
+            "deposit1": 10000000000000000000,
+            "deposit2": 10000000000000000000,
+            "participant1": "0xe89Ce3756690Ac7937972797471d7c84F9818ac6",
+            "participant2": "0xf1f41e5F35E3be655779a55d3544Df1Ad137b7C6",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 26,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0xe89Ce3756690Ac7937972797471d7c84F9818ac6",
+            "participant2": "0xE03E70e33F2AC48ceC3be5C0C7B06a0f25Ad5610",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 27,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0x10F4BC8CD156B4785f8F1f100C53C4cA0181E9b9",
+            "participant2": "0xe89Ce3756690Ac7937972797471d7c84F9818ac6",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 28,
+            "deposit1": 10000000000000000000,
+            "deposit2": 10000000000000000000,
+            "participant1": "0x10F4BC8CD156B4785f8F1f100C53C4cA0181E9b9",
+            "participant2": "0xf1f41e5F35E3be655779a55d3544Df1Ad137b7C6",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 29,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0x10F4BC8CD156B4785f8F1f100C53C4cA0181E9b9",
+            "participant2": "0x12df25eDD01f9b467F4375fDD95168482F987243",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 30,
+            "deposit1": 10000000000000000000,
+            "deposit2": 10000000000000000000,
+            "participant1": "0x06f5140A415f4E3969f7e40daEcCFd0558c9cE26",
+            "participant2": "0xf1f41e5F35E3be655779a55d3544Df1Ad137b7C6",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 31,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0x06f5140A415f4E3969f7e40daEcCFd0558c9cE26",
+            "participant2": "0x2Dcd55452D2437906dC33C02a9e49EAFc8C6827a",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 32,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0x06f5140A415f4E3969f7e40daEcCFd0558c9cE26",
+            "participant2": "0x865b332B0B058C472Ee3B46C5a66b8D1699740E1",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 33,
+            "deposit1": 1000000000000000000,
+            "deposit2": 0,
+            "participant1": "0xb34c6835754e06F956E9a9F6eB2cb6fcEbf4D1cb",
+            "participant2": "0xe89Ce3756690Ac7937972797471d7c84F9818ac6",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 34,
+            "deposit1": 600000000000000000,
+            "deposit2": 0,
+            "participant1": "0xb34c6835754e06F956E9a9F6eB2cb6fcEbf4D1cb",
+            "participant2": "0x10F4BC8CD156B4785f8F1f100C53C4cA0181E9b9",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 35,
+            "deposit1": 600000000000000000,
+            "deposit2": 0,
+            "participant1": "0xb34c6835754e06F956E9a9F6eB2cb6fcEbf4D1cb",
+            "participant2": "0xf9ED3cCa3e56A7B72049e6e830C39fd842A2F8e6",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 40,
+            "deposit1": 100000000000000000,
+            "deposit2": 0,
+            "participant1": "0xF573C35c75aB5896CE8E081d68b8626f9233bC4c",
+            "participant2": "0x00A33749a231f2e9c10deFE83403a67148D38438",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 42,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0x95b2485Da3186337dAD276e7A96799bddF00C168",
+            "participant2": "0xF8F857026C39BDeA5Fcc2Eb652DD02A23a07cF13",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 43,
+            "deposit1": 20000000000000000000,
+            "deposit2": 0,
+            "participant1": "0x95b2485Da3186337dAD276e7A96799bddF00C168",
+            "participant2": "0xf1f41e5F35E3be655779a55d3544Df1Ad137b7C6",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 44,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0x95b2485Da3186337dAD276e7A96799bddF00C168",
+            "participant2": "0x00A33749a231f2e9c10deFE83403a67148D38438",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 45,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0x95b2485Da3186337dAD276e7A96799bddF00C168",
+            "participant2": "0xf9ED3cCa3e56A7B72049e6e830C39fd842A2F8e6",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 46,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0x95b2485Da3186337dAD276e7A96799bddF00C168",
+            "participant2": "0xE03E70e33F2AC48ceC3be5C0C7B06a0f25Ad5610",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 47,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0x95b2485Da3186337dAD276e7A96799bddF00C168",
+            "participant2": "0xe89Ce3756690Ac7937972797471d7c84F9818ac6",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 48,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0x95b2485Da3186337dAD276e7A96799bddF00C168",
+            "participant2": "0x10F4BC8CD156B4785f8F1f100C53C4cA0181E9b9",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 49,
+            "deposit1": 10000000000000000000,
+            "deposit2": 0,
+            "participant1": "0x95b2485Da3186337dAD276e7A96799bddF00C168",
+            "participant2": "0x06f5140A415f4E3969f7e40daEcCFd0558c9cE26",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 50,
+            "deposit1": 0,
+            "deposit2": 0,
+            "participant1": "0xDB64cCb97799c55A87E16490B2C09Bd82E502452",
+            "participant2": "0xf1f41e5F35E3be655779a55d3544Df1Ad137b7C6",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 51,
+            "deposit1": 1000000000000000000,
+            "deposit2": 0,
+            "participant1": "0x9566DfD45Fcd47E59B6bDb39ce22f18c3f122ae0",
+            "participant2": "0xf1f41e5F35E3be655779a55d3544Df1Ad137b7C6",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 52,
+            "deposit1": 1000000000000000000,
+            "deposit2": 0,
+            "participant1": "0xa787FA214a168Efa12aE01E9b614DE9a4D81Ccf6",
+            "participant2": "0x9566DfD45Fcd47E59B6bDb39ce22f18c3f122ae0",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 53,
+            "deposit1": 0,
+            "deposit2": 0,
+            "participant1": "0x484c4De6E78D649fb76208A8cca728ceE6432A69",
+            "participant2": "0x95b2485Da3186337dAD276e7A96799bddF00C168",
+            "status": "opened"
+        },
+        {
+            "channel_identifier": 54,
+            "deposit1": 0,
+            "deposit2": 0,
+            "participant1": "0x484c4De6E78D649fb76208A8cca728ceE6432A69",
+            "participant2": "0xe89Ce3756690Ac7937972797471d7c84F9818ac6",
+            "status": "opened"
+        }
+    ],
+    "nodes": {
+        "0x00A33749a231f2e9c10deFE83403a67148D38438": {
+            "closed": 0,
+            "opened": 3,
+            "settled": 0
+        },
+        "0x06f5140A415f4E3969f7e40daEcCFd0558c9cE26": {
+            "closed": 0,
+            "opened": 4,
+            "settled": 0
+        },
+        "0x10F4BC8CD156B4785f8F1f100C53C4cA0181E9b9": {
+            "closed": 0,
+            "opened": 5,
+            "settled": 0
+        },
+        "0x12df25eDD01f9b467F4375fDD95168482F987243": {
+            "closed": 0,
+            "opened": 5,
+            "settled": 1
+        },
+        "0x172d639D7f9dFa5D97B059644Ba8F3D50df5e780": {
+            "closed": 0,
+            "opened": 1,
+            "settled": 0
+        },
+        "0x2Dcd55452D2437906dC33C02a9e49EAFc8C6827a": {
+            "closed": 0,
+            "opened": 1,
+            "settled": 1
+        },
+        "0x484c4De6E78D649fb76208A8cca728ceE6432A69": {
+            "closed": 0,
+            "opened": 2,
+            "settled": 0
+        },
+        "0x50602491e5E9F3E7Fb6Dc1Ea4381B66867CAd493": {
+            "closed": 0,
+            "opened": 1,
+            "settled": 0
+        },
+        "0x6652f05286b003576d1dC3868C34F63AB65eF233": {
+            "closed": 0,
+            "opened": 2,
+            "settled": 2
+        },
+        "0x865b332B0B058C472Ee3B46C5a66b8D1699740E1": {
+            "closed": 0,
+            "opened": 6,
+            "settled": 1
+        },
+        "0x9566DfD45Fcd47E59B6bDb39ce22f18c3f122ae0": {
+            "closed": 0,
+            "opened": 2,
+            "settled": 0
+        },
+        "0x95b2485Da3186337dAD276e7A96799bddF00C168": {
+            "closed": 0,
+            "opened": 9,
+            "settled": 0
+        },
+        "0xAD5F80fAc7533904dC6dae6128d7dA003B5D6310": {
+            "closed": 0,
+            "opened": 2,
+            "settled": 0
+        },
+        "0xC024b5c29Eaa118111AC3b0A79B3c860D30fbF1B": {
+            "closed": 0,
+            "opened": 2,
+            "settled": 0
+        },
+        "0xDB64cCb97799c55A87E16490B2C09Bd82E502452": {
+            "closed": 0,
+            "opened": 1,
+            "settled": 0
+        },
+        "0xE00Db8727C45a6711AAF1C39E0bfB3DBF11540b0": {
+            "closed": 0,
+            "opened": 0,
+            "settled": 1
+        },
+        "0xE03E70e33F2AC48ceC3be5C0C7B06a0f25Ad5610": {
+            "closed": 0,
+            "opened": 6,
+            "settled": 1
+        },
+        "0xEe12f8e36574C97eFfEf86723053c533649a561B": {
+            "closed": 0,
+            "opened": 1,
+            "settled": 0
+        },
+        "0xF573C35c75aB5896CE8E081d68b8626f9233bC4c": {
+            "closed": 0,
+            "opened": 5,
+            "settled": 0
+        },
+        "0xF8F857026C39BDeA5Fcc2Eb652DD02A23a07cF13": {
+            "closed": 0,
+            "opened": 2,
+            "settled": 5
+        },
+        "0xa787FA214a168Efa12aE01E9b614DE9a4D81Ccf6": {
+            "closed": 0,
+            "opened": 1,
+            "settled": 1
+        },
+        "0xb34c6835754e06F956E9a9F6eB2cb6fcEbf4D1cb": {
+            "closed": 0,
+            "opened": 3,
+            "settled": 0
+        },
+        "0xe2a65bcB622dDB334507B3A96A431CEE10C5e17b": {
+            "closed": 1,
+            "opened": 0,
+            "settled": 3
+        },
+        "0xe89Ce3756690Ac7937972797471d7c84F9818ac6": {
+            "closed": 0,
+            "opened": 7,
+            "settled": 0
+        },
+        "0xf1f41e5F35E3be655779a55d3544Df1Ad137b7C6": {
+            "closed": 1,
+            "opened": 11,
+            "settled": 1
+        },
+        "0xf9ED3cCa3e56A7B72049e6e830C39fd842A2F8e6": {
+            "closed": 0,
+            "opened": 6,
+            "settled": 1
+        }
+    },
+    "num_channels_closed": 1,
+    "num_channels_opened": 44,
+    "num_channels_settled": 9,
+    "num_channels_total": 54,
+    "token": {
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "name": "Dai Stablecoin",
+        "symbol": "DAI"
+    },
+    "total_deposits": 370071000000000000000
+}

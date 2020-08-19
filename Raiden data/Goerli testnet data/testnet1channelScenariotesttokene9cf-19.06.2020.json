@@ -1,0 +1,89 @@
+ {
+      "address": "0x3B15f1b10cBdfA13Ae433c630564AEE82380C299",
+      "token": {
+        "address": "0x62dB3B736c4cC5A4fF742a4fc1d4434e82E05AA5",
+        "name": "Scenario Test Token e9cff996-9254-4b1f-bfc1-c8fb93af2246 2020-05-29T08:17",
+        "symbol": "Te9c",
+        "decimals": 18
+      },
+      "num_channels_total": 6,
+      "num_channels_opened": 1,
+      "num_channels_closed": 0,
+      "num_channels_settled": 5,
+      "total_deposits": 2000000000000000000,
+      "avg_deposit_per_channel": 2000000000000000000,
+      "avg_deposit_per_node": 1000000000000000000,
+      "avg_channels_per_node": 1,
+      "channels": [
+        {
+          "channel_identifier": 1,
+          "status": "opened",
+          "participant1": "0x4065333Ae35f1DA08370189165Ac64626C3eF113",
+          "participant2": "0xe1F5f43478BE6D17E7d12f9f5c1D52b87Db0C933",
+          "deposit1": 1000000000000000000,
+          "deposit2": 1000000000000000000
+        },
+        {
+          "channel_identifier": 2,
+          "status": "settled",
+          "participant1": "0x1ae35A5451eAb5968268012cEe8b6490612278b2",
+          "participant2": "0x4065333Ae35f1DA08370189165Ac64626C3eF113",
+          "deposit1": 200000000000000000,
+          "deposit2": 0
+        },
+        {
+          "channel_identifier": 3,
+          "status": "settled",
+          "participant1": "0x1ae35A5451eAb5968268012cEe8b6490612278b2",
+          "participant2": "0xe1F5f43478BE6D17E7d12f9f5c1D52b87Db0C933",
+          "deposit1": 200000000000000000,
+          "deposit2": 0
+        },
+        {
+          "channel_identifier": 4,
+          "status": "settled",
+          "participant1": "0x29e3BC86642D6368eE79948a753114c6A87266c4",
+          "participant2": "0x4065333Ae35f1DA08370189165Ac64626C3eF113",
+          "deposit1": 200000000000000000,
+          "deposit2": 0
+        },
+        {
+          "channel_identifier": 5,
+          "status": "settled",
+          "participant1": "0x29e3BC86642D6368eE79948a753114c6A87266c4",
+          "participant2": "0xe1F5f43478BE6D17E7d12f9f5c1D52b87Db0C933",
+          "deposit1": 200000000000000000,
+          "deposit2": 0
+        },
+        {
+          "channel_identifier": 6,
+          "status": "settled",
+          "participant1": "0x29e3BC86642D6368eE79948a753114c6A87266c4",
+          "participant2": "0x1ae35A5451eAb5968268012cEe8b6490612278b2",
+          "deposit1": 200000000000000000,
+          "deposit2": 200000000000000000
+        }
+      ],
+      "nodes": {
+        "0x4065333Ae35f1DA08370189165Ac64626C3eF113": {
+          "opened": 1,
+          "closed": 0,
+          "settled": 2
+        },
+        "0xe1F5f43478BE6D17E7d12f9f5c1D52b87Db0C933": {
+          "opened": 1,
+          "closed": 0,
+          "settled": 2
+        },
+        "0x1ae35A5451eAb5968268012cEe8b6490612278b2": {
+          "opened": 0,
+          "closed": 0,
+          "settled": 3
+        },
+        "0x29e3BC86642D6368eE79948a753114c6A87266c4": {
+          "opened": 0,
+          "closed": 0,
+          "settled": 3
+        }
+      }
+    }
