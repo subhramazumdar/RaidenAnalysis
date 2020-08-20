@@ -32,6 +32,18 @@ def remove_capacity_node(G,x):
     for node in capacity_node:
         G.remove_node(node[0])
     
+
+def remove_close_nodes(G,x):
+    x=int(G.number_of_nodes()*x/100)
+    closeness_central=nx.closeness_centrality(G, u=None, distance=None, wf_improved=True)
+    nx.set_node_attributes(G, closeness_central, 'closeness_centrality')
+    
+    closeness_centrality_node=sorted(G.nodes(data=True), key=lambda x:x[1]['closeness_centrality'],reverse=True)[:x]
+    
+    for node in closeness_centrality_node:
+        G.remove_node(node[0])
+        
+    
 def remove_betweeness_node(G,x):
     x=int(G.number_of_nodes()*x/100)
     measure_of_centrality = nx.betweenness_centrality(G, k=None, normalized=True, weight=None, endpoints=False, seed=None)
@@ -147,6 +159,18 @@ def main():
         percentage_dec=(capacity_init-capacity_now)*100/capacity_init    
         x2.append(int(i/100*G.number_of_nodes()))
         y2.append(percentage_dec)
+    x4=[]
+    y4=[]
+    for i in range(5,45,5):
+        G=G_tmp.copy()
+        print("Removing "+str(i)+" high closeness central nodes\n")
+        remove_close_nodes(G,i)
+        #plot_graph(G)
+        
+        capacity_now=sum([G.nodes[x]['capacity'] for x in G.nodes])
+        percentage_dec=(capacity_init-capacity_now)*100/capacity_init    
+        x4.append(int(i/100*G.number_of_nodes()))
+        y4.append(percentage_dec)        
                
     x3=[]
     y3=[]
@@ -161,10 +185,11 @@ def main():
         x3.append(int(i/100*G.number_of_nodes()))
         y3.append(percentage_dec)
     
-    plt.plot(x0, y0, color='purple', markersize=3, label="Random ")
-    plt.plot(x0, y1, color='red', markersize=3, label="High Capacity ")
-    plt.plot(x0, y2, color='blue', markersize=3, label="High BC")
-    plt.plot(x0, y3, color='green', markersize=3, label="High Degree")
+    plt.plot(x0, y0, color='purple', linewidth=3, label="Random ")
+    plt.plot(x0, y1, color='red', linewidth=3, label="High Capacity ")
+    plt.plot(x0, y2, color='blue', linewidth=3, label="High BC")
+    plt.plot(x0, y3, color='green', linewidth=2, label="High Degree")
+    plt.plot(x0, y4, color='black', linewidth=2, label="High CC")
     #plt.plot(p, PP, '.', color='red')
     #plt.plot(pRandom, PPrandom, '.', color='green')
     plt.title("Robustness of Network")

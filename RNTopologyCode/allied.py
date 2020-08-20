@@ -35,5 +35,8 @@ def degree_avg(G):
     degrees = dict(G.degree())
     nx.set_node_attributes(G, degrees, 'degree')
     
+    for n in G.degree:
+        if n[1]>=10:
+            print(n)
 #    print("Average Degree: ")
     return mean([n[1] for n in G.degree])
