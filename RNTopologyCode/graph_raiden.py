@@ -109,18 +109,19 @@ def main():
    # print("LN's S-metric: ", smetric(G)) #0.6879664061934981
     print("RN average clustering coefficient", approximation.clustering_coefficient.average_clustering(G))
     print("RN's transitivity: ", nx.algorithms.cluster.transitivity(G))
+    c = max(nx.connected_components(G), key=len)
+    G=G.subgraph(c).copy() 
     G_tmp=G.copy()
     #vertexConnectivity(G)
     
-    c = max(nx.connected_components(G), key=len)
-    G=G.subgraph(c).copy() 
     
-    print("Raiden Network diameter: ", nx.algorithms.distance_measures.diameter(G)) #6
-    print("Raiden Network radius", nx.algorithms.distance_measures.radius(G)) #3
-    print("Average shortest paths: ",nx.algorithms.shortest_paths.generic.average_shortest_path_length(G)) # 2.806222412074612
+    
+    #print("Raiden Network diameter: ", nx.algorithms.distance_measures.diameter(G)) #6
+    #print("Raiden Network radius", nx.algorithms.distance_measures.radius(G)) #3
+    #print("Average shortest paths: ",nx.algorithms.shortest_paths.generic.average_shortest_path_length(G)) # 2.806222412074612
     #G=G_tmp.copy()
     #edgeConnectivity(G)
-    G=G_tmp.copy()
+    
     #centrality(G)
     #print("RN's largest clique size: ", nx.algorithms.approximation.clique.max_clique(G))
     #print("Adjacency spectrum of RN: ", nx.linalg.spectrum.adjacency_spectrum(G))
