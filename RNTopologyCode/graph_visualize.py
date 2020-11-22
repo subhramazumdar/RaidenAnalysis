@@ -7,7 +7,7 @@ from bokeh.palettes import Spectral8
 from bokeh.plotting import from_networkx
 from bokeh.models.graphs import EdgesAndLinkedNodes
 
-def plot_graph (G):
+def plot_graph1(G):
     """
     Given a graph, plot it
     """
